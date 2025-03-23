@@ -49,7 +49,7 @@ const AdminLayout = ({
               icon: <UserOutlined />,
               label: (
                 <Link href="/expense-calculator" rel="noopener noreferrer">
-                  Expense Calculator App
+                  Expense Calculator
                 </Link>
               ),
             },
@@ -58,7 +58,7 @@ const AdminLayout = ({
               icon: <VideoCameraOutlined />,
               label: (
                 <Link href="/todo-list" rel="noopener noreferrer">
-                  Todo List
+                  Todo List App
                 </Link>
               ),
             },
