@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myapp-header,
+.ant-menu {
+    background-color: rgb(110, 178, 236) !important ;
+}
+.site-maincontent {
+    padding-left: 250px;
+}
