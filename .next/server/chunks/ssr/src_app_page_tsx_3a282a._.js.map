@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/atkvl/Documents/GitHub/antd-next-typescript/src/app/page.tsx"],"sourcesContent":["\"use client\";\n//import LearningTable from \"@/components/LearningTable\";\n\nimport {CrownOutlined, FileProtectOutlined, HddOutlined} from \"@ant-design/icons\";\nimport {Button, Card, Col, Flex, Rate, Row, Space, Typography} from \"antd\";\nconst {Title} = Typography;\n\nexport default function Home() {\n    return (\n        <Row gutter={16}>\n            <Col span={12}></Col>\n            <Col span={7}></Col>\n        </Row>\n    );\n}\n"],"names":[],"mappings":";;;;AAIA;AAAA;AAAA;AAJA;;;AAKA,MAAM,EAAC,KAAK,EAAC,GAAG,0LAAA,CAAA,aAAU;AAEX,SAAS;IACpB,qBACI,8OAAC,4KAAA,CAAA,MAAG;QAAC,QAAQ;;0BACT,8OAAC,4KAAA,CAAA,MAAG;gBAAC,MAAM;;;;;;0BACX,8OAAC,4KAAA,CAAA,MAAG;gBAAC,MAAM;;;;;;;;;;;;AAGvB"}},
-    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
