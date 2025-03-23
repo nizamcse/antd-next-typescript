@@ -58,7 +58,7 @@ const AdminLayout = ({
               icon: <VideoCameraOutlined />,
               label: (
                 <Link href="/todo-list" rel="noopener noreferrer">
-                  Todo List
+                  Todo List App
                 </Link>
               ),
             },
