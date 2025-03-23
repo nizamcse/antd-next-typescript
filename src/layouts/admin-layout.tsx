@@ -49,7 +49,7 @@ const AdminLayout = ({
               icon: <UserOutlined />,
               label: (
                 <Link href="/expense-calculator" rel="noopener noreferrer">
-                  Expense Calculator
+                  Expense Calculator App
                 </Link>
               ),
             },
