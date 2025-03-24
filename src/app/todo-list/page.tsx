@@ -63,7 +63,9 @@ const TodoApp: React.FC = () => {
     // Toggle Task Status
     const handleToggleStatus = (key: string) => {
         const updatedTodos = todos.map((todo) =>
-            todo.key === key ? {...todo, status: todo.status === "Pending" ? "Completed" : "Pending"} : todo
+            todo.key === key
+                ? {...todo, status: todo.status === "Pending" ? ("Completed" as "Completed") : ("Pending" as "Pending")}
+                : todo
         );
         setTodos(updatedTodos);
     };
