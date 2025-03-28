@@ -1,3 +1,4 @@
+"use client";
 import React, {useState} from "react";
 import {Input, Button, Table, Space, Modal, Form, DatePicker, Select, Tag} from "antd";
 import type {ColumnsType} from "antd/es/table";
